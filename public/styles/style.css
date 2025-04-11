@@ -1,0 +1,268 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Barlow','Courier New', Courier, monospace;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+
+}
+
+.header{
+    border-bottom: solid aqua 2px;
+
+    
+}
+
+.header .container .titulo{
+
+    color: aqua;
+
+}
+
+.container .navbar{
+    display: flex;
+    color: yellow;
+    list-style-type: none;
+    justify-content: space-around;
+    
+    width: 350px;
+
+}
+
+.navbar a{
+    color: yellow;
+    text-decoration: none;
+
+}
+
+.navbar .agora{
+    font-weight: 900;
+    border-bottom: yellow solid 2px;
+
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    justify-content: space-around;
+
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+
+    height: 500px;
+    color: white;
+}
+
+.banner .container{
+    width: 500px;
+    height: 100%;
+
+    align-items: center;
+}
+
+.banner .container p{
+    font-size: 54px;
+}
+
+.banner .container p span{
+    font-weight: 800; /* DEIXA A FONTE MAIS GROSSA*/
+
+
+}
+
+/* SOCIAL */
+
+.social{
+    background: whitesmoke;
+ 
+}
+
+
+.box img{
+    width: 100px;
+
+
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 10px 0;
+    width: 100%;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box p{
+    text-align: center;
+}
+.box h4{
+    color: crimson;
+    font-weight: 900;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: cyan;
+
+}
+.footer .container{
+    justify-content: center;
+    align-items: center;
+    
+    height: 126px;
+    color: white;
+
+}
+
+/* PÁGINA DE LOGIN */
+
+.login{
+    display: flex;
+    height: 500px;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+}
+
+.login h2, .login span {
+
+    color:crimson;
+}
+.login span{
+    font-weight: 600;
+
+}
+.login h2{
+    margin: 1%;
+}
+
+
+.login .container{
+    display: flex;
+    /* background-color: burlywood; */
+    height: fit-content;
+    border-radius: 12px;
+    justify-content: center;
+
+}
+
+.card-login{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 70%;
+    width: 50%;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario {
+    display: flex;
+    /* background-color: brown; */
+    height: 80%;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 15%;
+
+    /* background-color: aqua; */
+}
+
+.campo input{
+    height: 80%;
+    min-height: 35px;
+    border-radius: 8px;
+    border: solid cyan 2px;
+    text-align: center;
+}
+
+.formulario button{
+
+    width: 40%;
+    height: 15%;
+
+    background-color: crimson;
+    border-radius: 8px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+}
+
+/* TELA DE CADASTRO */
+
+.login .container{
+    display: flex;
+    /* background-color: burlywood; */
+    height: 90%;
+    border-radius: 12px;
+    justify-content: center;
+
+}
+
+.card-cadastro{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 450px;
+    width: 50%;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-cadastro .formulario button{
+
+    width: 40%;
+    height: 10%;
+
+    background-color: crimson;
+    border-radius: 8px;
+    border: none;
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: large;
+}
+
+.card-cadastro .formulario{
+    display: flex;
+    /* background-color: brown; */
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    
+}
