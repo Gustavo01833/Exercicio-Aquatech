@@ -1,1 +1,1 @@
-# Exerc-cio-Aquatech
+# Exercício-Aquatech
